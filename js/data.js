@@ -1,0 +1,52 @@
+// ===========================================================================
+// Yorùbá Learning with Ṣèfúnmí — word data
+// ===========================================================================
+const WORDS = [
+  { en: "Advice", yo: "Àmọ̀ràn" },
+  { en: "Bag", yo: "Àpọ́" },
+  { en: "Beauty", yo: "Ẹ̀wà" },
+  { en: "Book", yo: "Ìwé" },
+  { en: "Child", yo: "Ọmọ" },
+  { en: "Creation", yo: "Ẹ̀dá" },
+  { en: "Cry", yo: "Ẹkún" },
+  { en: "Culture", yo: "Aṣa" },
+  { en: "Day", yo: "Ọjọ́" },
+  { en: "Do", yo: "Ṣe" },
+  { en: "English", yo: "Gẹẹsi" },
+  { en: "Face", yo: "Oju" },
+  { en: "Father", yo: "Bàbá" },
+  { en: "Fish", yo: "Ẹja" },
+  { en: "Food", yo: "Oúnjẹ" },
+  { en: "Forever", yo: "Títí" },
+  { en: "Friend", yo: "Ọrẹ" },
+  { en: "God", yo: "Ọlọrun" },
+  { en: "Good morning", yo: "Ẹkáàrọ̀" },
+  { en: "Home", yo: "Ilé" },
+  { en: "Know", yo: "Mọ́" },
+  { en: "Lesson", yo: "Ẹ̀kọ́" },
+  { en: "Like", yo: "Fẹ́" },
+  { en: "Love", yo: "Ifẹ́" },
+  { en: "Mother", yo: "Ìyá" },
+  { en: "Name", yo: "Orúkọ" },
+  { en: "News", yo: "Ìròyìn" },
+  { en: "Note", yo: "Àkọsílẹ̀" },
+  { en: "Prayer", yo: "Àdúrà" },
+  { en: "Religion", yo: "Ẹ̀sìn" },
+  { en: "Story", yo: "Ìtàn" },
+  { en: "Sweet", yo: "Adùn" },
+  { en: "Them", yo: "Àwọn" },
+  { en: "Tribe", yo: "Ẹ̀yà" },
+  { en: "Twins", yo: "Ìbèjì" },
+  { en: "Water", yo: "Omi" },
+  { en: "Wisdom", yo: "Àgbọn" },
+  { en: "Year", yo: "Ọdún" },
+];
+
+// Songs — official SoKidzTV videos on YouTube 
+const SONGS = [
+  { id: "YpsJxgWqCD4", title: "The Alphabet", yo: "ABD", desc: "Sing the Yorùbá alphabet — the classic ABD song!" },
+  { id: "A72YCN6J5hk", title: "Greetings", yo: "Ìkínì", desc: "A playful call-and-response song to learn how we greet." },
+  { id: "8Px_U7uBxIs", title: "Days of the Week", yo: "Ọjọ́ Ọsẹ", desc: "This cheerful tune teaches the days of the week." },
+  { id: "JXdTNb9lDPo", title: "Colours", yo: "Àwọ̀", desc: "A fun song to help you remember Yorùbá colors!" },
+  { id: "Yegi9QaOJ4U", title: "Counting", yo: "Kíka", desc: "Count along in Yorùbá and English — bonus song!" },
+];
