@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stories — Yorùbá Learning with Ṣèfúnmí</title>
+  <meta name="description" content="Yorùbá Learning with Ṣèfúnmí — learn Yorùbá through flashcards, games, songs, and stories. Fun for kids and families!">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="index.html"><svg class="logo-sun" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="9" fill="#ffc93c"/><g stroke="#ffc93c" stroke-width="3" stroke-linecap="round"><line x1="20" y1="2" x2="20" y2="8"/><line x1="20" y1="32" x2="20" y2="38"/><line x1="2" y1="20" x2="8" y2="20"/><line x1="32" y1="20" x2="38" y2="20"/><line x1="7" y1="7" x2="11.5" y2="11.5"/><line x1="28.5" y1="28.5" x2="33" y2="33"/><line x1="33" y1="7" x2="28.5" y2="11.5"/><line x1="11.5" y1="28.5" x2="7" y2="33"/></g></svg> Yorùbá Learning with Ṣèfúnmí</a>
+      <span class="star-chip" id="star-chip" title="Stars you've earned">⭐ <span id="star-count">0</span></span>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">🏠 Home</a></li>
+          <li><a href="lessons.html">🃏 Flashcards</a></li>
+          <li><a href="games.html">🎮 Games</a></li>
+          <li><a href="songs.html">🎵 Songs</a></li>
+          <li><a href="stories.html" aria-current="page">📖 Stories</a></li>
+          <li><a href="about.html">💛 About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <h1>📖 Ìtàn — Story Time!</h1>
+    <p>Read in Yorùbá first, then tap the magic button to reveal the English!</p>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+
+      <article class="story-card anim-bounce">
+        <div class="pic"><img src="images/sefunmi_friend.jpeg" alt="Sefunmi and her friend at the market" loading="lazy"></div>
+        <div class="body">
+          <h3>Ìtàn 1: Ṣèfúnmí àti Ọrẹ Rẹ̀</h3>
+          <p class="yo-text">Ṣèfúnmí lọ sí ọjà pẹ̀lú <strong>ọrẹ</strong> rẹ̀. Wọ́n ra <strong>ounjẹ</strong> àti <strong>omi</strong>. Wọ́n rẹrin-in, wọ́n yọ̀, wọ́n jó. Ó jẹ́ ọjọ́ to dara!</p>
+          <div class="translation" id="tr-1">✨ Sefunmi went to the market with her <strong>friend</strong>. They bought <strong>food</strong> and <strong>water</strong>. They laughed, celebrated, and danced. It was a beautiful <strong>day</strong>!</div>
+          <button class="btn btn-leaf small reveal-btn" data-target="tr-1" type="button">✨ Show translation</button>
+        </div>
+      </article>
+
+      <article class="story-card anim-bounce">
+        <div class="pic"><img src="images/turtle_goat.jpeg" alt="Tortoise and goat sharing grass" loading="lazy"></div>
+        <div class="body">
+          <h3>Ìtàn 2: Ijàpá àti Ewúrẹ́</h3>
+          <p class="yo-text">Ijàpá fẹ́ jẹun. Ó rí ewúrẹ́ tó ń jẹ koríko. Ó wí pé, &ldquo;Jẹ́ ká pin in.&rdquo; Ewúrẹ́ rẹrin-in, ó sì gbà.</p>
+          <div class="translation" id="tr-2">✨ Tortoise was hungry. He saw a goat eating grass. He said, &ldquo;Let's share it.&rdquo; The goat laughed and agreed.</div>
+          <button class="btn btn-leaf small reveal-btn" data-target="tr-2" type="button">✨ Show translation</button>
+        </div>
+      </article>
+
+      <article class="story-card anim-bounce">
+        <div class="pic"><img src="images/sefunmi_school.jpeg" alt="Sefunmi learning at school" loading="lazy"></div>
+        <div class="body">
+          <h3>Ìtàn 3: Ọjọ́ Ikẹta Ṣèfúnmí ní Ilé Ẹ̀kọ́</h3>
+          <p class="yo-text">Lọ́jọ́ ikẹta rẹ ní ilé ẹ̀kọ́, Ṣèfúnmí kẹ́kọ̀ọ́ nípa <strong>ara</strong>. Wọ́n kọ́ ọ ní, &ldquo;Ọwọ́, ẹsẹ̀, ojú, etí&hellip;&rdquo; Ó gbádùn ẹ̀kọ́ naa!</p>
+          <div class="translation" id="tr-3">✨ On her third day at school, Sefunmi learned about the <strong>body</strong>. They taught her: &ldquo;Hand, leg, eyes, ears&hellip;&rdquo; She enjoyed the <strong>lesson</strong>!</div>
+          <button class="btn btn-leaf small reveal-btn" data-target="tr-3" type="button">✨ Show translation</button>
+        </div>
+      </article>
+
+      <p class="credit-note">Story pictures were made with Google Gemini.</p>
+    </div>
+  </section>
+
+
+  <footer class="site-footer">
+    <svg class="foot-sun" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="9" fill="#ffc93c"/><g stroke="#ffc93c" stroke-width="3" stroke-linecap="round"><line x1="20" y1="2" x2="20" y2="8"/><line x1="20" y1="32" x2="20" y2="38"/><line x1="2" y1="20" x2="8" y2="20"/><line x1="32" y1="20" x2="38" y2="20"/><line x1="7" y1="7" x2="11.5" y2="11.5"/><line x1="28.5" y1="28.5" x2="33" y2="33"/><line x1="33" y1="7" x2="28.5" y2="11.5"/><line x1="11.5" y1="28.5" x2="7" y2="33"/></g></svg>
+    <p>&copy; 2026 Yorùbá Learning with Ṣèfúnmí. All rights reserved.</p>
+    <p>Songs by <a href="https://www.youtube.com/playlist?list=PLvyWSc3Rf-4h21iMtvp2aFP9dDpeBqy0P" rel="noopener">SoKidzTV on YouTube</a> &middot; Story pictures made with Google Gemini.</p>
+    <p>Created by Sefunmi Akin-Olukunle &middot; started as an Indiana University I360 &amp; Y202 project.</p>
+  </footer>
+
+  <button id="chat-launcher" aria-haspopup="dialog"><img src="images/sefunmi_avatar.PNG" alt=""> Ask Ṣèfúnmí AI</button>
+  <div id="chatbot" role="dialog" aria-label="Sefunmi AI chat">
+    <header>
+      <span>Ṣèfúnmí AI</span>
+      <button id="chat-close" aria-label="Close chat">&times;</button>
+    </header>
+    <div id="chat-body" aria-live="polite"></div>
+    <form id="chat-form">
+      <input id="chat-input" type="text" placeholder="Ask me anything!" autocomplete="off">
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <canvas id="confetti-canvas"></canvas>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/stories.js"></script>
+</body>
+</html>

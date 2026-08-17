@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Yorùbá Learning with Ṣèfúnmí</title>
+  <meta name="description" content="Yorùbá Learning with Ṣèfúnmí — learn Yorùbá through flashcards, games, songs, and stories. Fun for kids and families!">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="index.html"><svg class="logo-sun" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="9" fill="#ffc93c"/><g stroke="#ffc93c" stroke-width="3" stroke-linecap="round"><line x1="20" y1="2" x2="20" y2="8"/><line x1="20" y1="32" x2="20" y2="38"/><line x1="2" y1="20" x2="8" y2="20"/><line x1="32" y1="20" x2="38" y2="20"/><line x1="7" y1="7" x2="11.5" y2="11.5"/><line x1="28.5" y1="28.5" x2="33" y2="33"/><line x1="33" y1="7" x2="28.5" y2="11.5"/><line x1="11.5" y1="28.5" x2="7" y2="33"/></g></svg> Yorùbá Learning with Ṣèfúnmí</a>
+      <span class="star-chip" id="star-chip" title="Stars you've earned">⭐ <span id="star-count">0</span></span>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">🏠 Home</a></li>
+          <li><a href="lessons.html">🃏 Flashcards</a></li>
+          <li><a href="games.html">🎮 Games</a></li>
+          <li><a href="songs.html">🎵 Songs</a></li>
+          <li><a href="stories.html">📖 Stories</a></li>
+          <li><a href="about.html" aria-current="page">💛 About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <h1>💛 About this site</h1>
+    <p>Why I built Yorùbá Learning with Ṣèfúnmí</p>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="about-card anim-bounce">
+        <p><strong>Yorùbá Learning with Ṣèfúnmí</strong> is a creative learning platform designed to help children and families explore the Yorùbá language in a fun, accessible, and engaging way.</p>
+        <p>My mission is to provide easy-to-use tools for language preservation through games, music, and lessons that are culturally respectful and kid-friendly. I believe that early exposure to native languages strengthens identity and builds bridges across generations.</p>
+        <p>This project began as a final web design assignment for INFO-I 360 &amp; AFRI-Y 202 at Indiana University, and has grown into an interactive learning app with flashcards, matching games, quizzes, and stories.</p>
+        <p>All content is curated with attribution. Songs and videos belong to <a href="https://www.youtube.com/playlist?list=PLvyWSc3Rf-4h21iMtvp2aFP9dDpeBqy0P" rel="noopener">SoKidzTV on YouTube</a> — ẹ ṣé púpọ̀ for the wonderful music! Story images were generated with Google Gemini.</p>
+        <p>If you're a parent, teacher, or just curious about Yorùbá culture, I hope you'll find joy in exploring with me! 🌟</p>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="site-footer">
+    <svg class="foot-sun" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="9" fill="#ffc93c"/><g stroke="#ffc93c" stroke-width="3" stroke-linecap="round"><line x1="20" y1="2" x2="20" y2="8"/><line x1="20" y1="32" x2="20" y2="38"/><line x1="2" y1="20" x2="8" y2="20"/><line x1="32" y1="20" x2="38" y2="20"/><line x1="7" y1="7" x2="11.5" y2="11.5"/><line x1="28.5" y1="28.5" x2="33" y2="33"/><line x1="33" y1="7" x2="28.5" y2="11.5"/><line x1="11.5" y1="28.5" x2="7" y2="33"/></g></svg>
+    <p>&copy; 2026 Yorùbá Learning with Ṣèfúnmí. All rights reserved.</p>
+    <p>Songs by <a href="https://www.youtube.com/playlist?list=PLvyWSc3Rf-4h21iMtvp2aFP9dDpeBqy0P" rel="noopener">SoKidzTV on YouTube</a> &middot; Story pictures made with Google Gemini.</p>
+    <p>Created by Sefunmi Akin-Olukunle &middot; started as an Indiana University I360 &amp; Y202 project.</p>
+  </footer>
+
+  <button id="chat-launcher" aria-haspopup="dialog"><img src="images/sefunmi_avatar.PNG" alt=""> Ask Ṣèfúnmí AI</button>
+  <div id="chatbot" role="dialog" aria-label="Sefunmi AI chat">
+    <header>
+      <span>Ṣèfúnmí AI</span>
+      <button id="chat-close" aria-label="Close chat">&times;</button>
+    </header>
+    <div id="chat-body" aria-live="polite"></div>
+    <form id="chat-form">
+      <input id="chat-input" type="text" placeholder="Ask me anything!" autocomplete="off">
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <canvas id="confetti-canvas"></canvas>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
