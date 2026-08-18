@@ -44,8 +44,7 @@ const WORDS = [
 
 // Songs — official SoKidzTV videos on YouTube 
 const SONGS = [
-  { id: "YpsJxgWqCD4", title: "The Alphabet", yo: "ABD", desc: "Sing the Yorùbá alphabet — the classic ABD song!" },
-  { id: "A72YCN6J5hk", title: "Greetings", yo: "Ìkínì", desc: "A playful call-and-response song to learn how we greet." },
+  { id: "ykmpF3EyXlw", title: "The Alphabet", yo: "ABD", desc: "Sing the Yorùbá alphabet — the classic ABD song!" }, { id: "A72YCN6J5hk", title: "Greetings", yo: "Ìkínì", desc: "A playful call-and-response song to learn how we greet." },
   { id: "8Px_U7uBxIs", title: "Days of the Week", yo: "Ọjọ́ Ọsẹ", desc: "This cheerful tune teaches the days of the week." },
   { id: "JXdTNb9lDPo", title: "Colours", yo: "Àwọ̀", desc: "A fun song to help you remember Yorùbá colors!" },
   { id: "Yegi9QaOJ4U", title: "Counting", yo: "Kíka", desc: "Count along in Yorùbá and English — bonus song!" },
