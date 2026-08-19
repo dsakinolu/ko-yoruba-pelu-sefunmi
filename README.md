@@ -2,7 +2,7 @@
 
 *Learn Yorùbá with Ṣèfúnmí — games, songs, and stories for kids.*
 
-**Live site:** https://dsakinolu.github.io/yoruba-learning/
+**Live site:** https://dsakinolu.github.io/ko-yoruba-pelu-sefunmi/
 📲 **Installable:** open the site on your phone and choose "Add to Home Screen."
 
 An interactive language-learning website that helps children and families
